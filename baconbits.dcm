@@ -1,3 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED_BGR
+D LED RGB 6 pins
+K led rgb diode
+$ENDCMP
+#
+$CMP MCP23S18-E/MJ
+D 16-Bit I/O Expander with SPI Interface (PDIP/SOIC/SSOP)
+K IO Expander SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
 #End Doc Library
