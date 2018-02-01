@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/michael/projects/kicad/pcbs/baconbits/baconbits.sch</source>
+    <date>Thu 01 Feb 2018 02:03:18 PM CST</date>
+    <tool>Eeschema (2017-08-02 revision 9760937)-master</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BaconBits Minicape</title>
+        <company>QWERTY Embedded Design, LLC</company>
+        <rev>R0</rev>
+        <date>2018-01-29</date>
+        <source>baconbits.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>~</value>
+      <footprint>PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK</footprint>
+      <libsource lib="baconbits-cache" part="2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59921D67</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>~</value>
+      <footprint>PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK</footprint>
+      <libsource lib="baconbits-cache" part="2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59921E2F</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>~</value>
+      <footprint>PocketBeagle.pretty:0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LI0603G121R-10</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="FB-_INCH_-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A6FFDB2</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>BTN</value>
+      <footprint>PocketBeagle.pretty:MINI_PUSHBUTTON</footprint>
+      <fields>
+        <field name="Mfg Part Number">KMR231GLFS</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="MINI_PUSHBUTTON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A6FFE9F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPD4S012DRY</value>
+      <footprint>PocketBeagle.pretty:SON-6(TI)-DRY</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpd4s012.pdf</datasheet>
+      <fields>
+        <field name="Mfg Part Number">TPD4S012DRY</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="TPD4S012DRYR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A700007</tstamp>
+    </comp>
+    <comp ref="LD11">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A714B34</tstamp>
+    </comp>
+    <comp ref="LD12">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A715145</tstamp>
+    </comp>
+    <comp ref="LD13">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A715229</tstamp>
+    </comp>
+    <comp ref="LD15">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7152B9</tstamp>
+    </comp>
+    <comp ref="LD14">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71537B</tstamp>
+    </comp>
+    <comp ref="LD9">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71540B</tstamp>
+    </comp>
+    <comp ref="LD10">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7154B3</tstamp>
+    </comp>
+    <comp ref="LD4">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A717FD3</tstamp>
+    </comp>
+    <comp ref="LD5">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A717FD9</tstamp>
+    </comp>
+    <comp ref="LD6">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A717FDF</tstamp>
+    </comp>
+    <comp ref="LD8">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A717FE5</tstamp>
+    </comp>
+    <comp ref="LD7">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A717FEB</tstamp>
+    </comp>
+    <comp ref="LD2">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A717FF1</tstamp>
+    </comp>
+    <comp ref="LD3">
+      <value>LED_Small_ALT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LTST-C191KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED_Small_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A717FF7</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>220</value>
+      <footprint>RN0804</footprint>
+      <fields>
+        <field name="Mfg Part Number">YC124-JR-07220RL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR.NETWORK-_4_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A720F75</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP23S18-E/MJ</value>
+      <footprint>Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22103a.pdf</datasheet>
+      <fields>
+        <field name="Mfg Part Number">MCP23S18-E/MJ</field>
+      </fields>
+      <libsource lib="baconbits" part="MCP23S18-E/MJ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7221CA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB104</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7228EE</tstamp>
+    </comp>
+    <comp ref="RN2">
+      <value>220</value>
+      <footprint>RN0804</footprint>
+      <fields>
+        <field name="Mfg Part Number">YC124-JR-07220RL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR.NETWORK-_4_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A724AFC</tstamp>
+    </comp>
+    <comp ref="RN3">
+      <value>220</value>
+      <footprint>RN0804</footprint>
+      <fields>
+        <field name="Mfg Part Number">YC124-JR-07220RL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR.NETWORK-_4_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A724DDB</tstamp>
+    </comp>
+    <comp ref="RN4">
+      <value>220</value>
+      <footprint>RN0804</footprint>
+      <fields>
+        <field name="Mfg Part Number">YC124-JR-07220RL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR.NETWORK-_4_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A724DE1</tstamp>
+    </comp>
+    <comp ref="LD1">
+      <value>LED_BGR</value>
+      <footprint>LEDs:LED_RGB_PLLC-6</footprint>
+      <datasheet>http://www.qt-brightek.com/datasheet/QBLP679E-RGB.pdf</datasheet>
+      <fields>
+        <field name="Mfg Part Number">QBLP679E-RGB</field>
+      </fields>
+      <libsource lib="baconbits" part="LED_BGR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72C296</tstamp>
+    </comp>
+    <comp ref="RN5">
+      <value>220</value>
+      <footprint>RN0804</footprint>
+      <fields>
+        <field name="Mfg Part Number">YC124-JR-07220RL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR.NETWORK-_4_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72CAA3</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Mfg Part Number">BC817-40Q-13-F</field>
+      </fields>
+      <libsource lib="transistors" part="BC817"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72D749</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Mfg Part Number">BC817-40Q-13-F</field>
+      </fields>
+      <libsource lib="transistors" part="BC817"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72D8F6</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC817</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Mfg Part Number">BC817-40Q-13-F</field>
+      </fields>
+      <libsource lib="transistors" part="BC817"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72DAC8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72FB7C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7300FF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A730187</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-07100KL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A730EB7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-07100KL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A731021</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-07100KL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7310C3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MMA8452QR1</value>
+      <footprint>Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/MMA8452Q.pdf</datasheet>
+      <fields>
+        <field name="Mfg Part Number">MMA8452QR1</field>
+      </fields>
+      <libsource lib="baconbits" part="MMA8452QR1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A716C1D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB104</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7180A4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB104</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A718410</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71B5DC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71C02F</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>3352T-1-502LF</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/3352.pdf</datasheet>
+      <fields>
+        <field name="Mfg Part Number">3352T-1-502LF</field>
+      </fields>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71EB31</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7K</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71FFA2</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>~</value>
+      <footprint>PocketBeagle.pretty:0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LI0603G121R-10</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="FB-_INCH_-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72387C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB104</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7279F9</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>~</value>
+      <footprint>PocketBeagle.pretty:0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LI0603G121R-10</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="FB-_INCH_-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72CF1C</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>10118192-0001LF</value>
+      <footprint>PocketBeagle.pretty:10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)</footprint>
+      <fields>
+        <field name="Mfg Part Number">10118192-0001LF</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="10118192-0001LF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72CF28</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>~</value>
+      <footprint>PocketBeagle.pretty:0603</footprint>
+      <fields>
+        <field name="Mfg Part Number">LI0603G121R-10</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="FB-_INCH_-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72CF31</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>FT230XQ</value>
+      <footprint>Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Mfg Part Number">FT230XQ-R</field>
+      </fields>
+      <libsource lib="ftdi" part="FT230XQ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A72E1FA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB104</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7307D5</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB104</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A730C6F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB104</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A730D01</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>22</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-0722RL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A737D49</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>22</value>
+      <footprint>PocketBeagle.pretty:0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">RC0402FR-0722RL</field>
+      </fields>
+      <libsource lib="baconbits-cache" part="RESISTOR-_INCH_-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7383B6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Mfg Part Number">CC0402KRX7R7BB103</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A738CAD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_A</value>
+      <footprint>Connect:USB_A</footprint>
+      <fields>
+        <field name="Mfg Part Number">292303-1</field>
+      </fields>
+      <libsource lib="conn" part="USB_A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A721875</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="baconbits-cache" part="10118192-0001LF">
+      <footprints>
+        <fp>*10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10118192-0001LF</field>
+        <field name="Footprint">10118192-0001LF_MICRO-USB-B-AMPHENOL-FCI_</field>
+      </fields>
+      <pins>
+        <pin num="CGND" name="SGND1" type="BiDi"/>
+        <pin num="D+" name="D+" type="input"/>
+        <pin num="D-" name="D-" type="input"/>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="ID" name="ID" type="input"/>
+        <pin num="VBUS" name="VBUS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits-cache" part="2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK">
+      <footprints>
+        <fp>*TH-2X18-(35MIL-DIA)-W_O-SILK*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK</field>
+        <field name="Footprint">TH-2X18-_35MIL-DIA_-W_O-SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+        <pin num="9" name="9" type="BiDi"/>
+        <pin num="10" name="10" type="BiDi"/>
+        <pin num="11" name="11" type="BiDi"/>
+        <pin num="12" name="12" type="BiDi"/>
+        <pin num="13" name="13" type="BiDi"/>
+        <pin num="14" name="14" type="BiDi"/>
+        <pin num="15" name="15" type="BiDi"/>
+        <pin num="16" name="16" type="BiDi"/>
+        <pin num="17" name="17" type="BiDi"/>
+        <pin num="18" name="18" type="BiDi"/>
+        <pin num="19" name="19" type="BiDi"/>
+        <pin num="20" name="20" type="BiDi"/>
+        <pin num="21" name="21" type="BiDi"/>
+        <pin num="22" name="22" type="BiDi"/>
+        <pin num="23" name="23" type="BiDi"/>
+        <pin num="24" name="24" type="BiDi"/>
+        <pin num="25" name="25" type="BiDi"/>
+        <pin num="26" name="26" type="BiDi"/>
+        <pin num="27" name="27" type="BiDi"/>
+        <pin num="28" name="28" type="BiDi"/>
+        <pin num="29" name="29" type="BiDi"/>
+        <pin num="30" name="30" type="BiDi"/>
+        <pin num="31" name="31" type="BiDi"/>
+        <pin num="32" name="32" type="BiDi"/>
+        <pin num="33" name="33" type="BiDi"/>
+        <pin num="34" name="34" type="BiDi"/>
+        <pin num="35" name="35" type="BiDi"/>
+        <pin num="36" name="36" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+      </aliases>
+      <description>45V Vce, 0.8A Ic, NPN, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits-cache" part="FB-_INCH_-0603">
+      <footprints>
+        <fp>*0603*</fp>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FB-_INCH_-0603</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="BiDi"/>
+        <pin num="2" name="P$2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ftdi" part="FT230XQ">
+      <description>Full Speed USB to Basic UART, QFN-16</description>
+      <docs>http://www.ftdichip.com/Products/ICs/FT230X.html</docs>
+      <footprints>
+        <fp>QFN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT230XQ</field>
+        <field name="Footprint">QFN-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCIO" type="power_in"/>
+        <pin num="2" name="RXD" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~CTS" type="input"/>
+        <pin num="5" name="CBUS2" type="BiDi"/>
+        <pin num="6" name="USBDP" type="BiDi"/>
+        <pin num="7" name="USBDM" type="BiDi"/>
+        <pin num="8" name="3V3OUT" type="power_out"/>
+        <pin num="9" name="~RESET" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+        <pin num="11" name="CBUS1" type="BiDi"/>
+        <pin num="12" name="CBUS0" type="BiDi"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CBUS3" type="BiDi"/>
+        <pin num="15" name="TXD" type="output"/>
+        <pin num="16" name="~RTS" type="input"/>
+        <pin num="17" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits" part="LED_BGR">
+      <description>LED RGB 6 pins</description>
+      <fields>
+        <field name="Reference">LD</field>
+        <field name="Value">LED_BGR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="BA" type="passive"/>
+        <pin num="5" name="GA" type="passive"/>
+        <pin num="6" name="RA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED_Small_ALT">
+      <description>LED, small symbol, alternativ symbol</description>
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits" part="MCP23S18-E/MJ">
+      <description>16-Bit I/O Expander with SPI Interface (PDIP/SOIC/SSOP)</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</docs>
+      <footprints>
+        <fp>DIP-28_W7.62mm*</fp>
+        <fp>SOIC-28</fp>
+        <fp>SSOP-28</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23S18-E/MJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB1" type="BiDi"/>
+        <pin num="2" name="GPB2" type="BiDi"/>
+        <pin num="3" name="GPB3" type="BiDi"/>
+        <pin num="4" name="GPB4" type="BiDi"/>
+        <pin num="5" name="GPB5" type="BiDi"/>
+        <pin num="6" name="GPB6" type="BiDi"/>
+        <pin num="7" name="GPB7" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="~CS" type="input"/>
+        <pin num="10" name="SCK" type="input"/>
+        <pin num="11" name="SI" type="output"/>
+        <pin num="12" name="SO" type="output"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="INTA" type="output"/>
+        <pin num="15" name="GPA0" type="BiDi"/>
+        <pin num="16" name="GPA1" type="BiDi"/>
+        <pin num="17" name="GPA2" type="BiDi"/>
+        <pin num="18" name="GPA3" type="BiDi"/>
+        <pin num="19" name="GPA4" type="BiDi"/>
+        <pin num="20" name="GPA5" type="BiDi"/>
+        <pin num="21" name="GPA6" type="BiDi"/>
+        <pin num="22" name="GPA7" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPB0" type="BiDi"/>
+        <pin num="25" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits-cache" part="MINI_PUSHBUTTON">
+      <footprints>
+        <fp>*MINI_PUSHBUTTON*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MINI_PUSHBUTTON</field>
+        <field name="Footprint">MINI_PUSHBUTTON</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits" part="MMA8452QR1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MMA8452QR1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="input"/>
+        <pin num="2" name="BYP" type="input"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SDA" type="input"/>
+        <pin num="7" name="SA0" type="input"/>
+        <pin num="9" name="INT2" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="INT1" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="14" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT_TRIM">
+      <description>Trim-Potentionmeter</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits-cache" part="RESISTOR-_INCH_-0402">
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR-_INCH_-0402</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits-cache" part="RESISTOR.NETWORK-_4_">
+      <footprints>
+        <fp>*RN0804*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">RESISTOR.NETWORK-_4_</field>
+        <field name="Footprint">RN0804</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="baconbits-cache" part="TPD4S012DRYR">
+      <footprints>
+        <fp>*SON-6(TI)-DRY*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPD4S012DRYR</field>
+        <field name="Footprint">SON-6_TI_-DRY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D+" type="BiDi"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="ID" type="BiDi"/>
+        <pin num="4" name="GND" type="BiDi"/>
+        <pin num="5" name="NC" type="BiDi"/>
+        <pin num="6" name="VBUS" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_A">
+      <description>USB Type A connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ftdi">
+      <uri>/usr/local/share/kicad/library/ftdi.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/local/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="baconbits">
+      <uri>/home/michael/projects/kicad/pcbs/baconbits/baconbits.lib</uri>
+    </library>
+    <library logical="baconbits-cache">
+      <uri>/home/michael/projects/kicad/pcbs/baconbits/baconbits-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="LDG2">
+      <node ref="LD12" pin="1"/>
+      <node ref="RN2" pin="3"/>
+    </net>
+    <net code="2" name="LDA2">
+      <node ref="RN1" pin="1"/>
+      <node ref="LD11" pin="1"/>
+    </net>
+    <net code="3" name="LDF2">
+      <node ref="RN2" pin="2"/>
+      <node ref="LD9" pin="1"/>
+    </net>
+    <net code="4" name="LDE2">
+      <node ref="RN2" pin="1"/>
+      <node ref="LD10" pin="1"/>
+    </net>
+    <net code="5" name="LDD2">
+      <node ref="RN1" pin="4"/>
+      <node ref="LD13" pin="1"/>
+    </net>
+    <net code="6" name="LDB2">
+      <node ref="LD14" pin="1"/>
+      <node ref="RN1" pin="2"/>
+    </net>
+    <net code="7" name="LDC2">
+      <node ref="RN1" pin="3"/>
+      <node ref="LD15" pin="1"/>
+    </net>
+    <net code="8" name="LDA1">
+      <node ref="RN3" pin="1"/>
+      <node ref="LD4" pin="1"/>
+    </net>
+    <net code="9" name="LDB1">
+      <node ref="RN3" pin="2"/>
+      <node ref="LD7" pin="1"/>
+    </net>
+    <net code="10" name="RESET#">
+      <node ref="U1" pin="13"/>
+      <node ref="P2" pin="26"/>
+    </net>
+    <net code="11" name="Net-(RN3-Pad7)">
+      <node ref="RN3" pin="7"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="12" name="Net-(RN2-Pad7)">
+      <node ref="U1" pin="5"/>
+      <node ref="RN2" pin="7"/>
+    </net>
+    <net code="13" name="Net-(RN2-Pad6)">
+      <node ref="U1" pin="6"/>
+      <node ref="RN2" pin="6"/>
+    </net>
+    <net code="14" name="Net-(RN2-Pad5)">
+      <node ref="RN2" pin="5"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="15" name="Net-(RN3-Pad8)">
+      <node ref="RN3" pin="8"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="16" name="Net-(RN3-Pad6)">
+      <node ref="U1" pin="17"/>
+      <node ref="RN3" pin="6"/>
+    </net>
+    <net code="17" name="Net-(RN3-Pad5)">
+      <node ref="RN3" pin="5"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="18" name="Net-(RN4-Pad8)">
+      <node ref="U1" pin="19"/>
+      <node ref="RN4" pin="8"/>
+    </net>
+    <net code="19" name="Net-(RN4-Pad7)">
+      <node ref="U1" pin="20"/>
+      <node ref="RN4" pin="7"/>
+    </net>
+    <net code="20" name="Net-(RN1-Pad8)">
+      <node ref="RN1" pin="8"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="21" name="Net-(RN1-Pad7)">
+      <node ref="U1" pin="1"/>
+      <node ref="RN1" pin="7"/>
+    </net>
+    <net code="22" name="Net-(RN1-Pad6)">
+      <node ref="RN1" pin="6"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(RN1-Pad5)">
+      <node ref="U1" pin="3"/>
+      <node ref="RN1" pin="5"/>
+    </net>
+    <net code="24" name="Net-(RN2-Pad8)">
+      <node ref="RN2" pin="8"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="25" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="P2" pin="15"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="P1" pin="15"/>
+      <node ref="P1" pin="13"/>
+      <node ref="P1" pin="22"/>
+      <node ref="P2" pin="21"/>
+      <node ref="P1" pin="16"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="R4" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U4" pin="17"/>
+      <node ref="X1" pin="GND"/>
+    </net>
+    <net code="26" name="Net-(C4-Pad1)">
+      <node ref="FB3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="X1" pin="VBUS"/>
+    </net>
+    <net code="27" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="X1" pin="D+"/>
+    </net>
+    <net code="28" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="X1" pin="D-"/>
+    </net>
+    <net code="29" name="Net-(X1-PadID)">
+      <node ref="X1" pin="ID"/>
+    </net>
+    <net code="30" name="GNDPWR">
+      <node ref="X1" pin="CGND"/>
+      <node ref="X1" pin="CGND"/>
+      <node ref="X1" pin="CGND"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="X1" pin="CGND"/>
+      <node ref="X1" pin="CGND"/>
+      <node ref="X1" pin="CGND"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="31" name="USBD_VBUS">
+      <node ref="C6" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="FB3" pin="2"/>
+    </net>
+    <net code="32" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="33" name="GPIO_BTN">
+      <node ref="P2" pin="33"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="34" name="+3V3">
+      <node ref="C1" pin="1"/>
+      <node ref="LD1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="LD4" pin="2"/>
+      <node ref="LD5" pin="2"/>
+      <node ref="LD6" pin="2"/>
+      <node ref="P2" pin="23"/>
+      <node ref="P1" pin="14"/>
+      <node ref="LD3" pin="2"/>
+      <node ref="LD2" pin="2"/>
+      <node ref="LD7" pin="2"/>
+      <node ref="LD8" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="LD1" pin="6"/>
+      <node ref="LD1" pin="5"/>
+      <node ref="LD11" pin="2"/>
+      <node ref="LD12" pin="2"/>
+      <node ref="LD13" pin="2"/>
+      <node ref="LD15" pin="2"/>
+      <node ref="LD14" pin="2"/>
+      <node ref="LD9" pin="2"/>
+      <node ref="LD10" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="35" name="ADC_GND">
+      <node ref="RV1" pin="3"/>
+      <node ref="P1" pin="17"/>
+    </net>
+    <net code="36" name="ADC_PWR">
+      <node ref="RV1" pin="1"/>
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="37" name="ANALOG_IN">
+      <node ref="RV1" pin="2"/>
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="38" name="USB1_D+">
+      <node ref="U3" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="39" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="40" name="USB1_VBUS">
+      <node ref="FB4" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C7" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="41" name="I2C_SDA">
+      <node ref="U2" pin="6"/>
+      <node ref="P1" pin="26"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="42" name="UART0_TX">
+      <node ref="U4" pin="2"/>
+      <node ref="P1" pin="30"/>
+    </net>
+    <net code="43" name="SPI_MISO">
+      <node ref="P1" pin="10"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="44" name="SPI_MOSI">
+      <node ref="P1" pin="12"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="45" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="48" name="Net-(U4-Pad16)">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="49" name="Net-(RN4-Pad6)">
+      <node ref="RN4" pin="6"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="50" name="I2C_SCL">
+      <node ref="U2" pin="4"/>
+      <node ref="P1" pin="28"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="51" name="UART0_RX">
+      <node ref="U4" pin="15"/>
+      <node ref="P1" pin="32"/>
+    </net>
+    <net code="52" name="SPI_CLK">
+      <node ref="P1" pin="8"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="53" name="SPI_nCS">
+      <node ref="U1" pin="9"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="54" name="FTDI_3V3">
+      <node ref="U4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="55" name="Net-(FB4-Pad1)">
+      <node ref="FB4" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="56" name="USB1_D-">
+      <node ref="J1" pin="2"/>
+      <node ref="P1" pin="9"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="57" name="Net-(R9-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="58" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="59" name="Net-(LD1-Pad1)">
+      <node ref="RN5" pin="5"/>
+      <node ref="LD1" pin="1"/>
+    </net>
+    <net code="60" name="Net-(LD1-Pad2)">
+      <node ref="RN5" pin="6"/>
+      <node ref="LD1" pin="2"/>
+    </net>
+    <net code="61" name="Net-(LD1-Pad3)">
+      <node ref="LD1" pin="3"/>
+      <node ref="RN5" pin="7"/>
+    </net>
+    <net code="62" name="Net-(Q1-Pad3)">
+      <node ref="RN5" pin="4"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="63" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="RN5" pin="3"/>
+    </net>
+    <net code="64" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="RN5" pin="2"/>
+    </net>
+    <net code="65" name="PWM_BLUE">
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="36"/>
+    </net>
+    <net code="66" name="PWM_GREEN">
+      <node ref="P2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="67" name="PWM_RED">
+      <node ref="P2" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="68" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="69" name="Net-(RN4-Pad5)">
+      <node ref="U1" pin="22"/>
+      <node ref="RN4" pin="5"/>
+    </net>
+    <net code="70" name="LDC1">
+      <node ref="RN3" pin="3"/>
+      <node ref="LD8" pin="1"/>
+    </net>
+    <net code="71" name="LDD1">
+      <node ref="LD6" pin="1"/>
+      <node ref="RN3" pin="4"/>
+    </net>
+    <net code="72" name="LDE1">
+      <node ref="LD3" pin="1"/>
+      <node ref="RN4" pin="1"/>
+    </net>
+    <net code="73" name="LDF1">
+      <node ref="LD2" pin="1"/>
+      <node ref="RN4" pin="2"/>
+    </net>
+    <net code="74" name="LDG1">
+      <node ref="RN4" pin="3"/>
+      <node ref="LD5" pin="1"/>
+    </net>
+    <net code="75" name="ACC_INT2">
+      <node ref="P1" pin="4"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="76" name="ACC_INT1">
+      <node ref="U2" pin="11"/>
+      <node ref="P1" pin="34"/>
+    </net>
+    <net code="77" name="Net-(Q2-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="78" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="79" name="Net-(C3-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="80" name="/(U1.F2)AIN6~3.3V">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="81" name="/(U1.T16)">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="82" name="/BAT.TEMP">
+      <node ref="P2" pin="16"/>
+    </net>
+    <net code="83" name="SYS_5V">
+      <node ref="P1" pin="24"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="84" name="/VIN.BAT">
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="85" name="/(U1.B4)PRU-0.16">
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="86" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="87" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="88" name="/(U1.T15)">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="89" name="/(U1.N13)AIN7~1.8V">
+      <node ref="P2" pin="36"/>
+    </net>
+    <net code="90" name="/(U1.B6)AIN2~1.8V">
+      <node ref="P1" pin="23"/>
+    </net>
+    <net code="91" name="/(U1.B8)AIN1~1.8V">
+      <node ref="P1" pin="21"/>
+    </net>
+    <net code="92" name="/(U1.B11)I2C1.SCL">
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="93" name="/(U1.C3)PRU-0.6">
+      <node ref="P2" pin="28"/>
+    </net>
+    <net code="94" name="/(U1.C4)PRU-0.7">
+      <node ref="P1" pin="29"/>
+    </net>
+    <net code="95" name="/(U1.C5)SPI1.CLK">
+      <node ref="P2" pin="29"/>
+    </net>
+    <net code="96" name="/(U1.C6)AIN3~1.8V">
+      <node ref="P1" pin="25"/>
+    </net>
+    <net code="97" name="/(U1.C7)AIN4~1.8V">
+      <node ref="P1" pin="27"/>
+    </net>
+    <net code="98" name="/(U1.C12)SPI1.MISO">
+      <node ref="P2" pin="27"/>
+    </net>
+    <net code="99" name="/(U1.C13)SPI1.MOSI">
+      <node ref="P2" pin="25"/>
+    </net>
+    <net code="100" name="/(U1.F1)">
+      <node ref="P1" pin="35"/>
+    </net>
+    <net code="101" name="/(U1.F3)AIN5~3.3V">
+      <node ref="P2" pin="35"/>
+    </net>
+    <net code="102" name="/(U1.M14)USB1.DRVVBUS">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="103" name="/(U1.B3)PRU-0.5">
+      <node ref="P2" pin="34"/>
+    </net>
+    <net code="104" name="/(U1.N14)">
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="105" name="/(U1.P6)">
+      <node ref="P2" pin="24"/>
+    </net>
+    <net code="106" name="/(U1.P7)PRU-0.15">
+      <node ref="P2" pin="18"/>
+    </net>
+    <net code="107" name="/(U1.P15)UART4.RX">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="108" name="/(U1.R7)">
+      <node ref="P2" pin="20"/>
+    </net>
+    <net code="109" name="/(U1.R13)">
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="110" name="/(U1.R15)">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="111" name="/(U1.R16)UART4.TX">
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="112" name="/(U1.T5)">
+      <node ref="P2" pin="19"/>
+    </net>
+    <net code="113" name="/(U1.T6)PRU-0.14">
+      <node ref="P2" pin="22"/>
+    </net>
+    <net code="114" name="/(U1.T7)">
+      <node ref="P2" pin="17"/>
+    </net>
+    <net code="115" name="/(U1.T11)PWR.BTN">
+      <node ref="P2" pin="12"/>
+    </net>
+    <net code="116" name="/(U1.A2)PRU-0.1">
+      <node ref="P1" pin="33"/>
+    </net>
+    <net code="117" name="/(U1.A3)PRU-0.4">
+      <node ref="P1" pin="31"/>
+    </net>
+    <net code="118" name="/(U1.A4)SPI1.CS">
+      <node ref="P2" pin="31"/>
+    </net>
+    <net code="119" name="/(U1.A11)I2C1.SDA">
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="120" name="/(U1.B1)PRU-0.3">
+      <node ref="P2" pin="30"/>
+    </net>
+    <net code="121" name="/(U1.B2)PRU-0.2">
+      <node ref="P2" pin="32"/>
+    </net>
+    <net code="122" name="Net-(RN5-Pad8)">
+      <node ref="RN5" pin="8"/>
+    </net>
+    <net code="123" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="124" name="Net-(RN5-Pad1)">
+      <node ref="RN5" pin="1"/>
+    </net>
+    <net code="125" name="Net-(RN2-Pad4)">
+      <node ref="RN2" pin="4"/>
+    </net>
+    <net code="126" name="Net-(RN4-Pad4)">
+      <node ref="RN4" pin="4"/>
+    </net>
+  </nets>
+</export>
